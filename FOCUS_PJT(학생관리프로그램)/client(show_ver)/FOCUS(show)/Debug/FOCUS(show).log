@@ -1,0 +1,25 @@
+﻿빌드 시작: 2015-12-08 오후 12:55:23
+     1>2 노드의 "C:\Users\heeseon\Desktop\FOCUS(show)\FOCUS(show)\FOCUS(show).vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt init_sockAddr.c
+         init_sockAddr.c
+     1>c:\users\heeseon\desktop\focus(show)\focus(show)\init_sockaddr.c(13): warning C4047: '함수': 'int'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+     1>c:\users\heeseon\desktop\focus(show)\focus(show)\init_sockaddr.c(13): warning C4024: 'memset': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\heeseon\Desktop\FOCUS(show)\Debug\FOCUS(show).exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\heeseon\Desktop\FOCUS(show)\Debug\FOCUS(show).pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\heeseon\Desktop\FOCUS(show)\Debug\FOCUS(show).lib" /MACHINE:X86 Debug\get_mac_address.obj
+         Debug\init_sockAddr.obj
+         Debug\init_sockState.obj
+         Debug\main.obj
+         Debug\my_close.obj
+         Debug\my_ftp.obj
+         Debug\my_intBlock.obj
+         Debug\my_message.obj
+         Debug\my_sleep.obj
+         Debug\my_web.obj
+         Debug\send.obj
+         FOCUS(show).vcxproj -> C:\Users\heeseon\Desktop\FOCUS(show)\Debug\FOCUS(show).exe
+     1>"C:\Users\heeseon\Desktop\FOCUS(show)\FOCUS(show)\FOCUS(show).vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:01.92
